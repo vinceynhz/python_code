@@ -49,6 +49,7 @@ The *tac.py* module contains the following top level widgets:
 * *GameBoard (Scren)*: the actual tic tac toe game board
 * *ListCheckBox (CheckBox)*: extension to add an index attribute
 And the following low level widgets according to where they are used:
+
 **Menu Screen**
 * *_player_figure_selection_box*: to select which figure the user will play
 * *_player_name_box*: to type in user names

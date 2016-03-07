@@ -4,7 +4,7 @@
 1. **id3tags.py**: module to show tag information of an mp3 file
 2. **sample.mp3**: exactly that, a sample mp3: Polka in G - Henry Reed (1999)
 
-### About ID3
+### About...
 For a while now I have had knowledge of the tagging system in mp3, with the boom of personal music players and mp3 being the most common format for that, the tagging system became really useful. This code was for me to learn the binary composition of the tagging system and to keep a good practice regarding protocol parsing from raw data. 
 
 ### The *id3tags.py* module

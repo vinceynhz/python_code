@@ -4,16 +4,14 @@ from os import system
 from datetime import datetime
 
 class timeit():
-    ''' This class is designed to work along the with reserved word of python
-    as follows:
+    ''' to calculate the execution time (in ms) of a piece of code.
 
-    with timeit():
-        #
-        # add some code
-        #
+    The class is intended to be used as part of a with block:
 
-    At the end of the execution, the instance of timeit will print to console
-    the time elapsed in ms'''
+    >>> with timeit():
+            # add code to time
+
+    At the end of the execution, the time will be printed to std output'''
     def __enter__(self):
         self.start = datetime.now()
         return self
@@ -24,27 +22,16 @@ class timeit():
         print(self.interval)
 
 def cls():
+    ''' wrapper for os.system('cls') for windows systems '''
     system("cls")
 
+# Alias for cls
 clear = cls
-
-def slope(xo, yo, xi, yi):
-    return (yi-yo) / (xi-xo)
-
-def prorate(items):
-    current = 1
-    result = []
-    for item in items:
-        result.append(item/current)
-        current -= item
-
-    if current > 0:
-        result.append(current)
-
-    return result
 
 #### BINARY DATA FORMATTING AND PRINTING ###
 def _print_data(data, stream=sys.stdout):
+    ''' this method will format a bunch of bytes into their hex 
+    and ASCII representations '''
     line = 0
     output = ""
 
@@ -169,11 +156,11 @@ def bresenham(xi, yi, xo=0, yo=0):
 def octant(x, y):
     # this thing will calculate the octant given an x and y coordinates
     # Octants:
-    #    \2|1/
+    #   \2|1/
     #   3\|/0
     #  ---+---
     #   4/|\7
-    #  /5|6\
+    #   /5|6\
     octant = -1
 
     if x >= 0 and y >= 0: # first quad
@@ -227,3 +214,108 @@ def scalematrix(matrix, currentsize, newsize):
 
     scaled.sort()
     return scaled
+
+def slope(xo, yo, xi, yi):
+    return (yi-yo) / (xi-xo)
+
+def prorate(items):
+    current = 1
+    result = []
+    for item in items:
+        result.append(item/current)
+        current -= item
+
+    if current > 0:
+        result.append(current)
+
+    return result
+
+def cycle(value, upper, lower = 0):
+    ''' This function will adjust the value within the boundaries given
+
+    Case 1: The value does not overflow the boundaries
+
+        -oo <----|-------x--------|----> +oo
+                low    value      up
+
+        The value is returned
+
+    Case 2: The value overflows outside of the boundary and the overflow (of)
+            amount is less than the range amount
+
+                  ~~~~~ range ~~~~~ ~~~ of ~~>
+        -oo <----|-----------------|----------x----> +oo
+                low               up        value
+
+        OR:
+
+                  <~~ of ~~~ ~~~~~ range ~~~~~
+        -oo <----x----------|-----------------|----> +oo
+               value       low                up
+
+
+        The value will be 'bounced' from the exceeded boundary back 
+        to within range:
+
+                  ~~~~~ range ~~~~~
+                         <~~ of ~~~<<<
+        -oo <----|------x----------|----> +oo
+                low   value       up
+
+        OR:
+
+                  ~~~~~ range ~~~~~
+               >>>~~~ of ~~>
+        -oo <----|----------x------|----> +oo
+                low       value    up
+
+    Case 3: The value overflows outside of the boundary and the overflow
+            amount is greater than the range
+
+                  ~~~~~ range ~~~~~ ~~~~~~~~~ overflow ~~~~~~~~>
+        -oo <----|-----------------|----------------------------x----> +oo
+                low               up                          value
+
+        OR:
+
+                  <~~~~~~~~ overflow ~~~~~~~~~ ~~~~~ range ~~~~~
+        -oo <----x----------------------------|-----------------|----> +oo
+               value                         low                up
+
+        The value will be 'bounced' multiple times from boundary to boundary 
+        until it falls within the range indicated:
+
+                  ~~~~~ range ~~~~~ 
+                  <~~~~~~~~~~~~~~~~<<<
+               >>>~~~~~~~~~~>
+
+        -oo <----|-----------x-----|----> +oo
+                low        value  up
+
+        OR:
+
+                  ~~~~~ range ~~~~~ 
+               >>>~~~~~~~~~~~~~~~~~
+                        <~~~~~~~~~~<<<
+
+        -oo <----|-----x-----------|----> +oo
+                low  value        up
+
+    '''
+    # First, we determine the real range
+    rnge = upper + abs(lower)
+    # Then we determine the overflow
+    overflow = value % rnge
+    # Then, how many times the value can fit in the range
+    times = value // rnge
+
+    if times == 0:
+        if value > upper:
+            return value - lower
+        else:
+            return value
+
+    if times % 2 != 0:
+        return upper - overflow - lower
+
+    return lower + overflow

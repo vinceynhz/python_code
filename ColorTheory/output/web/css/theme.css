@@ -1,0 +1,140 @@
+/*
+ * Theme css for color theory analysis
+ * Vicente Yanez, November 2015
+ */
+body{
+    font-family: 'Calibri', Verdana, sans-serif;
+}
+
+h1, h2, h3, h4{
+    margin: 0px auto 2px auto;
+    padding: 0px auto 2px auto;
+}
+
+h3, h4{
+    margin-bottom: 10px;
+}
+
+h4{
+    margin-top: 10px;
+}
+
+.list-container{
+    float:left;
+    overflow:hidden;
+    position:relative;
+    width: 100%;
+}
+
+.list-container ul{
+    clear:both;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    width: auto;
+    height: auto;
+}
+
+.list-container ul li{    
+    display:block;
+    float:left;
+    list-style:none;
+    margin:10px;
+    padding:0;
+    position:relative;
+    width: auto;
+    height: auto;
+    font-size: 13px;
+}
+
+.page-container{
+    /*border: 1px solid brown;*/
+    float: right;
+    width: 45%;
+    margin: 40px 0 0 0;
+}
+
+.pages{
+    clear:both;
+    float:left;
+    list-style:none;
+    position:relative;
+    overflow:hidden;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 660px;
+}
+
+.page{
+    display:block;
+    clear: both;
+    float:left;
+    list-style:none;
+    position:relative;
+    overflow:scroll;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+}
+
+.palette{
+    clear: left;
+    /*border: 1px solid blue; */
+    width: 54%;
+    height: 330px;
+    margin: 40px 0 0 0;
+    overflow:scroll;
+}
+
+.palette a{
+    text-decoration:none;
+    color: black;
+}
+
+.color{
+    margin: auto;
+    width: 120px;
+    height: 70px;
+}
+
+.color-info table{
+    width: 120px;
+    font-size: 13px;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.color-info table tr:nth-child(2n + 1){
+    background-color: #eee;
+}
+
+.color-info table td:nth-child(1){
+    width:40px;
+}
+
+.cromaticity, .map{
+    /*border: 1px solid purple; */
+    float:left;
+    width: 270px;
+    height: 330px;
+    margin: 40px 0 0 20px;
+}
+
+.map-margin{
+    margin: 0 40px 0 40px;
+}
+
+.swatches .color{
+    margin: 0px;
+    width: 54px;
+    height: 54px;
+}
+
+.swatches .list-container ul li{
+    /*width: 100px;*/
+    margin: 10px 5px 10px 5px;
+}

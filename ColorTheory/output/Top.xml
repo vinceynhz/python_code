@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="web/layout.xslt"?>
+<ColorPalette name="Top from ColourLovers.com" url="http://www.colourlovers.com">
+    <Palette name="Giant Goldfish" url="http://www.colourlovers.com/palette/92095/Giant_Goldfish">
+        <Color cmyk="55, 9, 0, 9" hex="0x69d2e7" hsl="190, 72, 66" hsv="190, 55, 91" value="105, 210, 231" xyz="0.237797, 0.301343, 0.46086"/>
+        <Color cmyk="24, 0, 1, 14" hex="0xa7dbd8" hsl="177, 42, 76" hsv="177, 24, 86" value="167, 219, 216" xyz="0.279554, 0.332554, 0.387893"/>
+        <Color cmyk="2, 0, 11, 11" hex="0xe0e4cc" hsl="70, 31, 85" hsv="70, 11, 89" value="224, 228, 204" xyz="0.325502, 0.355108, 0.31939"/>
+        <Color cmyk="0, 45, 80, 5" hex="0xf38630" hsl="26, 89, 57" hsv="26, 80, 95" value="243, 134, 48" xyz="0.512938, 0.404796, 0.082266"/>
+        <Color cmyk="0, 58, 100, 2" hex="0xfa6900" hsl="25, 100, 49" hsv="25, 100, 98" value="250, 105, 0" xyz="0.567064, 0.387943, 0.044993"/>
+    </Palette>
+    <Palette name="(%E2%97%95%E3%80%9D%E2%97%95)" url="http://www.colourlovers.com/palette/629637/(%E2%97%95%E3%80%9D%E2%97%95)">
+        <Color cmyk="0, 74, 60, 0" hex="0xfe4365" hsl="349, 99, 63" hsv="349, 74, 100" value="254, 67, 101" xyz="0.524668, 0.301893, 0.173439"/>
+        <Color cmyk="0, 38, 39, 1" hex="0xfc9d9a" hsl="2, 94, 80" hsv="2, 39, 99" value="252, 157, 154" xyz="0.409301, 0.332482, 0.258217"/>
+        <Color cmyk="0, 18, 31, 2" hex="0xf9cdad" hsl="25, 86, 83" hsv="25, 31, 98" value="249, 205, 173" xyz="0.371789, 0.36298, 0.265231"/>
+        <Color cmyk="0, 0, 16, 22" hex="0xc8c8a9" hsl="60, 22, 72" hsv="60, 16, 78" value="200, 200, 169" xyz="0.335732, 0.367054, 0.297214"/>
+        <Color cmyk="25, 0, 11, 31" hex="0x83af9b" hsl="153, 22, 60" hsv="153, 25, 69" value="131, 175, 155" xyz="0.291042, 0.359939, 0.349019"/>
+    </Palette>
+    <Palette name="Thought Provoking" url="http://www.colourlovers.com/palette/694737/Thought_Provoking">
+        <Color cmyk="0, 12, 49, 7" hex="0xecd078" hsl="46, 75, 70" hsv="46, 49, 93" value="236, 208, 120" xyz="0.398726, 0.423508, 0.177765"/>
+        <Color cmyk="0, 58, 69, 15" hex="0xd95b43" hsl="10, 66, 56" hsv="10, 69, 85" value="217, 91, 67" xyz="0.52197, 0.354125, 0.123905"/>
+        <Color cmyk="0, 79, 66, 25" hex="0xc02942" hsl="350, 65, 46" hsv="350, 79, 75" value="192, 41, 66" xyz="0.54482, 0.305506, 0.149675"/>
+        <Color cmyk="0, 57, 35, 67" hex="0x542437" hsl="336, 40, 24" hsv="336, 57, 33" value="84, 36, 55" xyz="0.40096, 0.275739, 0.3233"/>
+        <Color cmyk="32, 2, 0, 52" hex="0x53777a" hsl="185, 19, 40" hsv="185, 32, 48" value="83, 119, 122" xyz="0.268286, 0.322442, 0.409272"/>
+    </Palette>
+    <Palette name="Adrift in Dreams" url="http://www.colourlovers.com/palette/580974/Adrift_in_Dreams">
+        <Color cmyk="14, 0, 34, 6" hex="0xcff09e" hsl="84, 73, 78" hsv="84, 34, 94" value="207, 240, 158" xyz="0.340503, 0.421441, 0.238056"/>
+        <Color cmyk="23, 0, 23, 14" hex="0xa8dba8" hsl="120, 41, 76" hsv="120, 23, 86" value="168, 219, 168" xyz="0.309653, 0.394275, 0.296072"/>
+        <Color cmyk="36, 0, 19, 26" hex="0x79bd9a" hsl="149, 34, 61" hsv="149, 36, 74" value="121, 189, 154" xyz="0.285321, 0.382566, 0.332113"/>
+        <Color cmyk="56, 0, 0, 47" hex="0x3b8686" hsl="180, 39, 38" hsv="180, 56, 53" value="59, 134, 134" xyz="0.244194, 0.328799, 0.427008"/>
+        <Color cmyk="90, 33, 0, 58" hex="0xb486b0" hsl="202, 81, 23" hsv="202, 90, 42" value="11, 72, 107" xyz="0.199341, 0.225022, 0.575637"/>
+    </Palette>
+    <Palette name="cheer up emo kid" url="http://www.colourlovers.com/palette/1930/cheer_up_emo_kid">
+        <Color cmyk="24, 13, 0, 56" hex="0x556270" hsl="211, 14, 39" hsv="211, 24, 44" value="85, 98, 112" xyz="0.276607, 0.296601, 0.426792"/>
+        <Color cmyk="62, 0, 4, 20" hex="0x4ecdc4" hsl="176, 56, 55" hsv="176, 62, 80" value="78, 205, 196" xyz="0.242454, 0.341906, 0.41564"/>
+        <Color cmyk="18, 0, 59, 4" hex="0xc7f464" hsl="79, 87, 67" hsv="79, 59, 96" value="199, 244, 100" xyz="0.363852, 0.486124, 0.150024"/>
+        <Color cmyk="0, 58, 58, 0" hex="0xff6b6b" hsl="0, 100, 71" hsv="0, 58, 100" value="255, 107, 107" xyz="0.493262, 0.329536, 0.177202"/>
+        <Color cmyk="0, 61, 55, 23" hex="0xc44d58" hsl="354, 50, 54" hsv="354, 61, 77" value="196, 77, 88" xyz="0.484031, 0.316061, 0.199909"/>
+    </Palette>
+    <Palette name="let them eat cake" url="http://www.colourlovers.com/palette/49963/let_them_eat_cake">
+        <Color cmyk="0, 34, 53, 53" hex="0x774f38" hsl="22, 36, 34" hsv="22, 53, 47" value="119, 79, 56" xyz="0.428193, 0.377426, 0.194382"/>
+        <Color cmyk="0, 37, 46, 12" hex="0xe08e79" hsl="12, 62, 68" hsv="12, 46, 88" value="224, 142, 121" xyz="0.424736, 0.354139, 0.221125"/>
+        <Color cmyk="0, 12, 27, 5" hex="0xf1d4af" hsl="34, 70, 82" hsv="34, 27, 95" value="241, 212, 175" xyz="0.361785, 0.368886, 0.269329"/>
+        <Color cmyk="0, 3, 13, 7" hex="0xece5ce" hsl="46, 44, 87" hsv="46, 13, 93" value="236, 229, 206" xyz="0.33266, 0.353299, 0.314041"/>
+        <Color cmyk="12, 0, 2, 12" hex="0xc5e0dc" hsl="171, 30, 83" hsv="171, 12, 88" value="197, 224, 220" xyz="0.296769, 0.333505, 0.369727"/>
+    </Palette>
+    <Palette name="Terra?" url="http://www.colourlovers.com/palette/292482/Terra">
+        <Color cmyk="0, 5, 13, 9" hex="0xe8ddcb" hsl="37, 39, 85" hsv="37, 13, 91" value="232, 221, 203" xyz="0.332871, 0.34842, 0.318709"/>
+        <Color cmyk="0, 13, 38, 20" hex="0xcdb380" hsl="40, 44, 65" hsv="40, 38, 80" value="205, 179, 128" xyz="0.379647, 0.392958, 0.227395"/>
+        <Color cmyk="97, 0, 1, 60" hex="0x365640" hsl="179, 94, 20" hsv="179, 97, 40" value="3, 101, 100" xyz="0.226231, 0.331567, 0.442203"/>
+        <Color cmyk="96, 26, 0, 71" hex="0x336490" hsl="196, 92, 15" hsv="196, 96, 29" value="3, 54, 73" xyz="0.2052, 0.251656, 0.543145"/>
+        <Color cmyk="94, 58, 0, 80" hex="0x316340" hsl="217, 89, 11" hsv="217, 94, 20" value="3, 22, 52" xyz="0.183472, 0.163424, 0.653104"/>
+    </Palette>
+    <Palette name="mellon_ball_surprise" url="http://www.colourlovers.com/palette/373610/mellon_ball_surprise">
+        <Color cmyk="14, 0, 32, 5" hex="0xd1f2a5" hsl="86, 75, 80" hsv="86, 32, 95" value="209, 242, 165" xyz="0.33736, 0.415084, 0.247555"/>
+        <Color cmyk="4, 0, 28, 2" hex="0xeffab4" hsl="69, 87, 84" hsv="69, 28, 98" value="239, 250, 180" xyz="0.34756, 0.401002, 0.251438"/>
+        <Color cmyk="0, 23, 45, 0" hex="0xffc48c" hsl="29, 100, 77" hsv="29, 45, 100" value="255, 196, 140" xyz="0.406181, 0.387142, 0.206677"/>
+        <Color cmyk="0, 38, 50, 0" hex="0xff9f80" hsl="15, 100, 75" hsv="15, 50, 100" value="255, 159, 128" xyz="0.436762, 0.361459, 0.201779"/>
+        <Color cmyk="0, 57, 41, 4" hex="0xf56991" hsl="343, 88, 69" hsv="343, 57, 96" value="245, 105, 145" xyz="0.435752, 0.287594, 0.276654"/>
+    </Palette>
+    <Palette name="(%E2%97%95_%E2%80%9D_%E2%97%95)" url="http://www.colourlovers.com/palette/848743/(%E2%97%95_%E2%80%9D_%E2%97%95)">
+        <Color cmyk="0, 86, 16, 71" hex="0x490a3d" hsl="311, 76, 16" hsv="311, 86, 29" value="73, 10, 61" xyz="0.360153, 0.191881, 0.447967"/>
+        <Color cmyk="0, 89, 58, 26" hex="0xbd1550" hsl="339, 80, 41" hsv="339, 89, 74" value="189, 21, 80" xyz="0.523904, 0.275409, 0.200688"/>
+        <Color cmyk="0, 45, 99, 9" hex="0xe97f02" hsl="32, 98, 46" hsv="32, 99, 91" value="233, 127, 2" xyz="0.529136, 0.417441, 0.053423"/>
+        <Color cmyk="0, 19, 100, 3" hex="0xf8ca00" hsl="49, 100, 49" hsv="49, 100, 97" value="248, 202, 0" xyz="0.457147, 0.475221, 0.067633"/>
+        <Color cmyk="11, 0, 90, 39" hex="0x8a9b0f" hsl="67, 82, 33" hsv="67, 90, 61" value="138, 155, 15" xyz="0.397866, 0.51553, 0.086605"/>
+    </Palette>
+    <Palette name="i demand a pancake" url="http://www.colourlovers.com/palette/443995/i_demand_a_pancake">
+        <Color cmyk="0, 11, 11, 65" hex="0x594f4f" hsl="0, 6, 33" hsv="0, 11, 35" value="89, 79, 79" xyz="0.330914, 0.329055, 0.340031"/>
+        <Color cmyk="34, 5, 0, 50" hex="0x547980" hsl="190, 21, 42" hsv="190, 34, 50" value="84, 121, 128" xyz="0.264151, 0.314233, 0.421615"/>
+        <Color cmyk="60, 0, 3, 32" hex="0x45ada8" hsl="177, 43, 47" hsv="177, 60, 68" value="69, 173, 168" xyz="0.242811, 0.337231, 0.419958"/>
+        <Color cmyk="30, 0, 23, 12" hex="0x9de0ad" hsl="134, 52, 75" hsv="134, 30, 88" value="157, 224, 173" xyz="0.299045, 0.394743, 0.306212"/>
+        <Color cmyk="9, 0, 23, 1" hex="0xe5fcc2" hsl="84, 91, 87" hsv="84, 23, 99" value="229, 252, 194" xyz="0.332116, 0.389641, 0.278243"/>
+    </Palette>
+    <Palette name="Ocean Five" url="http://www.colourlovers.com/palette/1473/Ocean_Five">
+        <Color cmyk="100, 9, 0, 31" hex="0xa0b000" hsl="185, 100, 35" hsv="185, 100, 69" value="0, 160, 176" xyz="0.216776, 0.300363, 0.482861"/>
+        <Color cmyk="0, 30, 43, 58" hex="0x6a4a3c" hsl="18, 28, 33" hsv="18, 43, 42" value="106, 74, 60" xyz="0.40236, 0.362148, 0.235492"/>
+        <Color cmyk="0, 75, 69, 20" hex="0xcc333f" hsl="355, 60, 50" hsv="355, 75, 80" value="204, 51, 63" xyz="0.552572, 0.318728, 0.1287"/>
+        <Color cmyk="0, 56, 72, 8" hex="0xeb6841" hsl="14, 81, 59" hsv="14, 72, 92" value="235, 104, 65" xyz="0.525809, 0.365824, 0.108367"/>
+        <Color cmyk="0, 15, 66, 7" hex="0xedc951" hsl="46, 81, 62" hsv="46, 66, 93" value="237, 201, 81" xyz="0.427313, 0.450246, 0.122441"/>
+    </Palette>
+    <Palette name="LoversInJapan" url="http://www.colourlovers.com/palette/867235/LoversInJapan">
+        <Color cmyk="0, 67, 49, 9" hex="0xe94e77" hsl="344, 78, 61" hsv="344, 67, 91" value="233, 78, 119" xyz="0.473376, 0.287717, 0.238907"/>
+        <Color cmyk="0, 40, 36, 16" hex="0xd68189" hsl="354, 51, 67" hsv="354, 40, 84" value="214, 129, 137" xyz="0.402614, 0.319331, 0.278055"/>
+        <Color cmyk="0, 17, 22, 22" hex="0xc6a49a" hsl="14, 28, 69" hsv="14, 22, 78" value="198, 164, 154" xyz="0.354737, 0.342127, 0.303136"/>
+        <Color cmyk="14, 0, 5, 10" hex="0xc6e5d9" hsl="157, 37, 84" hsv="157, 14, 90" value="198, 229, 217" xyz="0.299305, 0.342545, 0.35815"/>
+        <Color cmyk="0, 4, 13, 4" hex="0xf4ead5" hsl="41, 58, 90" hsv="41, 13, 96" value="244, 234, 213" xyz="0.333053, 0.35057, 0.316377"/>
+    </Palette>
+    <Palette name="Compatible" url="http://www.colourlovers.com/palette/932683/Compatible">
+        <Color cmyk="66, 0, 5, 28" hex="0x3fb8af" hsl="176, 49, 48" hsv="176, 66, 72" value="63, 184, 175" xyz="0.240608, 0.343403, 0.415989"/>
+        <Color cmyk="36, 0, 12, 22" hex="0x7fc7af" hsl="160, 39, 64" hsv="160, 36, 78" value="127, 199, 175" xyz="0.276855, 0.363408, 0.359737"/>
+        <Color cmyk="0, 1, 23, 15" hex="0xdad8a7" hsl="58, 41, 75" hsv="58, 23, 85" value="218, 216, 167" xyz="0.348342, 0.385011, 0.266647"/>
+        <Color cmyk="0, 38, 38, 0" hex="0xff9e9d" hsl="1, 100, 81" hsv="1, 38, 100" value="255, 158, 157" xyz="0.408584, 0.330338, 0.261078"/>
+        <Color cmyk="0, 76, 50, 0" hex="0xff3d7f" hsl="340, 100, 62" hsv="340, 76, 100" value="255, 61, 127" xyz="0.489275, 0.27353, 0.237195"/>
+    </Palette>
+    <Palette name="Good Friends" url="http://www.colourlovers.com/palette/77121/Good_Friends">
+        <Color cmyk="0, 5, 18, 15" hex="0xd9ceb2" hsl="43, 34, 77" hsv="43, 18, 85" value="217, 206, 178" xyz="0.34172, 0.361425, 0.296855"/>
+        <Color cmyk="0, 5, 21, 42" hex="0x948c75" hsl="45, 13, 52" hsv="45, 21, 58" value="148, 140, 117" xyz="0.345697, 0.367089, 0.287214"/>
+        <Color cmyk="4, 0, 2, 13" hex="0xd5ded9" hsl="147, 12, 85" hsv="147, 4, 87" value="213, 222, 217" xyz="0.309641, 0.334531, 0.355828"/>
+        <Color cmyk="0, 13, 32, 52" hex="0x7a6a53" hsl="35, 19, 40" hsv="35, 32, 48" value="122, 106, 83" xyz="0.367368, 0.375561, 0.257071"/>
+        <Color cmyk="16, 3, 0, 28" hex="0x99b2b7" hsl="190, 17, 66" hsv="190, 16, 72" value="153, 178, 183" xyz="0.288009, 0.321918, 0.390073"/>
+    </Palette>
+    <Palette name="w o r d l e s s ." url="http://www.colourlovers.com/palette/359978/w_o_r_d_l_e_s_s_.">
+        <Color cmyk="0, 0, 0, 0" hex="0xffffff" hsl="0, 0, 100" hsv="0, 0, 100" value="255, 255, 255" xyz="0.312716, 0.329001, 0.358283"/>
+        <Color cmyk="13, 0, 54, 9" hex="0xcbe86b" hsl="74, 73, 66" hsv="74, 54, 91" value="203, 232, 107" xyz="0.368471, 0.469105, 0.162424"/>
+        <Color cmyk="0, 4, 7, 5" hex="0xf2e9e1" hsl="28, 40, 92" hsv="28, 7, 95" value="242, 233, 225" xyz="0.323956, 0.3372, 0.338843"/>
+        <Color cmyk="0, 29, 54, 89" hex="0x1c140d" hsl="28, 37, 8" hsv="28, 54, 11" value="28, 20, 13" xyz="0.387987, 0.375673, 0.23634"/>
+        <Color cmyk="13, 0, 54, 9" hex="0xcbe86b" hsl="74, 73, 66" hsv="74, 54, 91" value="203, 232, 107" xyz="0.368471, 0.469105, 0.162424"/>
+    </Palette>
+    <Palette name="color-set 12" url="http://design-seeds.com/home/entry/color-set12">
+        <Color cmyk="2, 20, 0, 15" hex="0xd4aed9" hsl="293, 36, 77" hsv="293, 20, 85" value="212, 174, 217" xyz="0.310796, 0.279423, 0.40978"/>
+        <Color cmyk="11, 27, 0, 38" hex="0x8d739e" hsl="276, 18, 54" hsv="276, 27, 62" value="141, 115, 158" xyz="0.295757, 0.259002, 0.445241"/>
+        <Color cmyk="0, 32, 12, 23" hex="0xc485ad" hsl="322, 35, 65" hsv="322, 32, 77" value="196, 133, 173" xyz="0.340016, 0.277036, 0.382948"/>
+        <Color cmyk="0, 25, 19, 5" hex="0xf2b5c4" hsl="345, 70, 83" hsv="345, 25, 95" value="242, 181, 196" xyz="0.353124, 0.312862, 0.334013"/>
+        <Color cmyk="0, 19, 25, 2" hex="0xfacbbb" hsl="15, 86, 86" hsv="15, 25, 98" value="250, 203, 187" xyz="0.362204, 0.34597, 0.291826"/>
+        <Color cmyk="0, 7, 22, 0" hex="0xffeec7" hsl="42, 100, 89" hsv="42, 22, 100" value="255, 238, 199" xyz="0.349368, 0.368125, 0.282507"/>
+    </Palette>
+</ColorPalette>

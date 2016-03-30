@@ -4,6 +4,7 @@
 1. shared
   1. [*misc.py*](#sharedmisc), miscellaneous functions... Semantically I couldn't figure out where to put them
   2. [*vector.py](#sharedvector), vector operations
+  3. [*log.py*](#sharedlog), logging functions
 2. colors
   1. [*spaces.py*](#colorsspaces), color spaces definitions and transformations between them 
   2. [*colorlib.py*](#colorscolorlib), library for color transformations
@@ -73,8 +74,12 @@ Clean functions: they receive an angle in degrees, convert it to radians (for ma
 * *iRz*: rotate from y to x on z
 * *rotate*: wrapper for all rotations
 
-### *colors.spaces*
+### *shared.log*
+The following methods are defined:
+* *log*: to log a message with a specific level on a given logger
+* *printif*: for conditional (verbose flag-like) printing to console
 
+### *colors.spaces*
 The following classes are defined:
 * *rgb*: base class for RGB operations, it does not handle alpha channel
 * *cmy*: class for CMY operations (mostly transformations to RGB)

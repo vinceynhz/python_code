@@ -10,3 +10,4 @@ After finishing college five years ago, I left pending some ideas for minor appl
 3. **Draw Pad**: graphic application to process free hand drawings for pattern recognition
 4. **Color Theory**: command and graphic tools I have used for my studies on color theory
 5. **ID3 Tags**: command line tool to display the ID3 frames from an mp3 file
+6. **Neural Networks**: code for my research on neural networks

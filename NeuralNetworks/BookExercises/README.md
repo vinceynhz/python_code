@@ -23,9 +23,9 @@ The probability that a channel is open is described by three additional coeficie
 
 In fact, we can observe how these coeficients change in time using the model. Being *x* a generic name for *m*, *n*, or *h*, for a fixed voltage *u*, the coeficients (described by *x*) approach an equilibrium value *x<sub>0</sub>(u)* and a time constant *T<sub>x</sub>(u)*. The following charts describe these two functions.
 
-![HodgkinHuxley - Equilibrium Functions](https://raw.githubusercontent.com/vinceynhz/python_code/master/NeuralNetworks/BookExercises/img/hodgkin-huxley-x0(n%2Cm%2Ch).png)
+![HodgkinHuxley - Equilibrium Functions](https://raw.githubusercontent.com/vinceynhz/python_code/master/NeuralNetworks/BookExercises/img/hodgkin-huxley-x0\(n,m,h\).png)
 
-![HodgkinHuxley - Time Constant](https://raw.githubusercontent.com/vinceynhz/python_code/master/NeuralNetworks/BookExercises/img/hodgkin-huxley-T(n%2Cm%2Ch).png)
+![HodgkinHuxley - Time Constant](https://raw.githubusercontent.com/vinceynhz/python_code/master/NeuralNetworks/BookExercises/img/hodgkin-huxley-T\(n,m,h\).png)
 
 Putting all the pieces together and letting the model run over time, we can observe some interesting dynamics.
 

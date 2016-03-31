@@ -17,11 +17,11 @@ In 1952, Hodgkin and Huxley were studying the giant axon of the squid and after 
 
 First is convenient to understand that the cell is excitable, meaning that there is an *input signal* that upon its value and the cell's state, can generate a reaction. When an input signal (current) is passed through the cell, it can either increase current into the membrane or leak through one of the environment channels: *sodium (Na)* at the outside of the cell, *potasium (K)* at the inside and a *leak (L)* current for other unspecified channels. 
 
-The three channels are characterized within the model by their conductance *g*. The conductance of the leakage channel (L) is voltage-independent while the other conductance of the other two (Na and K) is both, time and voltage dependent. Said that, if all the channels are open at a given time, they will transmit currents with maximum conductance *g~Na~* and *g~K~* respectively, however, normally some of the channels are blocked.
+The three channels are characterized within the model by their conductance *g*. The conductance of the leakage channel (L) is voltage-independent while the other conductance of the other two (Na and K) is both, time and voltage dependent. Said that, if all the channels are open at a given time, they will transmit currents with maximum conductance *g<sub>Na</sub>* and *g<sub>K</sub>* respectively, however, normally some of the channels are blocked.
 
 The probability that a channel is open is described by three additional coeficients *m*, *n* and *h*. The combined action of *m* and *h* controls the *Na* channel, while *n* controls the *K* one. Since we mention that the gates Na and K are time dependent, the coeficients *m*, *n* and *h* evolve according to some differential equations allowing us to model exactly the time variation of these three coeficients.
 
-In fact, we can observe how these coeficients change in time using the model. Being *x* a generic name for *m*, *n*, or *h*, for a fixed voltage *u*, the coeficients (described by *x*) approach an equilibrium value *x~0~(u)* and a time constant *T~x~(u)*. The following charts describe these two functions.
+In fact, we can observe how these coeficients change in time using the model. Being *x* a generic name for *m*, *n*, or *h*, for a fixed voltage *u*, the coeficients (described by *x*) approach an equilibrium value *x<sub>0</sub>(u)* and a time constant *T<sub>x</sub>(u)*. The following charts describe these two functions.
 
 ![HodgkinHuxley - Equilibrium Functions](https://raw.githubusercontent.com/vinceynhz/python_code/master/NeuralNetworks/BookExercises/img/hodgkin-huxley-x0\(n,m,h\).png)
 
